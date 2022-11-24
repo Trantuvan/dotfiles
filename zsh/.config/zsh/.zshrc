@@ -84,9 +84,7 @@ alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
-# bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-
+# make apt call nala
 apt() { 
   command nala "$@"
 }
@@ -99,11 +97,12 @@ sudo() {
   fi
 }
 
-### RANDOM COLOR SCRIPT ###
+# random colorscript
 colorscript random
 
 # setting starship prompts
 eval "$(starship init zsh)"
 
+# load nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 

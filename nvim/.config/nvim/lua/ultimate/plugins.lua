@@ -61,7 +61,7 @@ return packer.startup(function(use)
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
 
   -- Colorschemes
-  use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
+  use { "shaunsingh/moonlight.nvim", commit = "e24e4218ec680b6396532808abf57ca0ada82e66" }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin

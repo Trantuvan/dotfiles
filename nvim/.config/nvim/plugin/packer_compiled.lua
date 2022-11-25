@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/van/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["moonlight.nvim"] = {
+    loaded = true,
+    path = "/home/van/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
+    url = "https://github.com/shaunsingh/moonlight.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/van/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -233,11 +238,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/van/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/van/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,

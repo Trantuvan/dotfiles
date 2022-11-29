@@ -3,6 +3,9 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
 
+#export path for doom emacs
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 # aliases
 alias c='code'
 alias v='nvim'

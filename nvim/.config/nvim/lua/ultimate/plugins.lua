@@ -46,11 +46,23 @@ return packer.startup(function(use)
   -- My plugins here
   use { "wbthomason/packer.nvim" }
   use { "nvim-lua/plenary.nvim" }
+  use {	"windwp/nvim-autopairs" }
+  use { "numToStr/Comment.nvim" }
+  use { "nvim-tree/nvim-web-devicons" }
+  use { "nvim-tree/nvim-tree.lua" }
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+  use { "moll/vim-bbye" }
+  use { "nvim-lualine/lualine.nvim" }
+  use {"akinsho/toggleterm.nvim", tag = '*' }
+  use { "ahmedkhalf/project.nvim" }
+  use { "lewis6991/impatient.nvim" }
+  use { "goolord/alpha-nvim" }
+  use { "folke/which-key.nvim" }
+  -- use { "lukas-reineke/indent-blankline.nvim" }
+  -- use { "JoosepAlviste/nvim-ts-context-commentstring", commit = "4d3a68c41a53add8804f471fcc49bb398fe8de08" }
 
-
-
-
-
+  --colorscheme
+  use { "folke/tokyonight.nvim" }
 
 
 

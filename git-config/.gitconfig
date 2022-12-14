@@ -1,0 +1,13 @@
+[user]
+	name = trantuvan
+	email = trantuvan.kan@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[core]
+	editor = code --wait
+[alias]
+	graph = log --oneline --graph --decorate

@@ -1,3 +1,6 @@
+# Export ~/.local/bin for fd to work
+export PATH="$HOME/.local/bin:$PATH"
+
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -97,12 +100,19 @@ sudo() {
   fi
 }
 
+#fzf config 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_COMMAND="fd --type -f"
+export FZF_CRT_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
 # random colorscript
 colorscript random
 
 # setting starship prompts
 eval "$(starship init zsh)"
 
-# load nvm
+# settings nvm config
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+

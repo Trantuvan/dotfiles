@@ -1,6 +1,3 @@
-# Export ~/.local/bin for fd to work
-export PATH="$HOME/.local/bin:$PATH"
-
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -99,12 +96,6 @@ sudo() {
     command sudo "$@"
   fi
 }
-
-#fzf config 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_OPS="--extended"
-export FZF_DEFAULT_COMMAND="fd --type -f"
-export FZF_CRT_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # random colorscript
 colorscript random

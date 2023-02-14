@@ -103,6 +103,6 @@ colorscript random
 # setting starship prompts
 eval "$(starship init zsh)"
 
-# load nvm from .config 
-export NVM_DIR="$HOME/.config/nvm"
+#set completion source string for nvm
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

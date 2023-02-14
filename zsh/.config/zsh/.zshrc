@@ -106,3 +106,6 @@ eval "$(starship init zsh)"
 #set completion source string for nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+#set Node options
+export NODE_OPTIONS="--dns-result-order=ipv4first"

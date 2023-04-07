@@ -110,6 +110,3 @@ export NVM_DIR="$HOME/.nvm"
 #set Node options
 export NODE_OPTIONS="--dns-result-order=ipv4first"
 
-#JDK path for java
-export JAVA_HOME=/usr/lib/jvm/jdk-20
-export PATH="$PATH:$JAVA_HOME/bin"

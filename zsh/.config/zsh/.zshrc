@@ -35,7 +35,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # git
-alias addup='git add -u'
+alias addup='git add -p'
 alias addall='git add .'
 alias branch='git branch'
 alias checkout='git checkout'

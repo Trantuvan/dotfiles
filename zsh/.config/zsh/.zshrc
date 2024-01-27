@@ -110,3 +110,5 @@ export NVM_DIR="$HOME/.nvm"
 #set Node options
 export NODE_OPTIONS="--dns-result-order=ipv4first"
 
+#set path for go-lang
+export PATH=$PATH:/usr/local/go/bin

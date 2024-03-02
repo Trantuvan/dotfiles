@@ -1,6 +1,7 @@
 zsh/.config/zsh/zsh-autosuggestions/
 zsh/.config/zsh/zsh-syntax-highlighting/
 zsh/.config/zsh/zsh-z/
+zsh/.config/zsh/shell-color-scripts
 zsh/.config/zsh/.zcompdump
 nvim/.config/nvim/plugin/packer_compiled.lua
 

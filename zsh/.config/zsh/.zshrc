@@ -103,6 +103,9 @@ colorscript random
 # setting starship prompts
 eval "$(starship init zsh)"
 
+# Use Neovim as "preferred editor"
+export VISUAL=nvim
+
 #set completion source string for nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

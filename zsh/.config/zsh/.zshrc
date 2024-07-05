@@ -115,3 +115,4 @@ export NODE_OPTIONS="--dns-result-order=ipv4first"
 
 #set path for go-lang
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin

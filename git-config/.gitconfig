@@ -11,3 +11,5 @@
 	editor = code --wait
 [alias]
 	graph = log --oneline --graph --decorate
+[rerere]
+	enabled = true

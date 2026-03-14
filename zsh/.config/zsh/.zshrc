@@ -5,7 +5,7 @@ HISTFILE=~/.cache/zsh/history
 
 # aliases
 alias c='code'
-alias v='nvim'
+# alias v='nvim'
 
 # cd
 alias ..='cd ..'
@@ -104,7 +104,7 @@ colorscript random
 eval "$(starship init zsh)"
 
 # Use Neovim as "preferred editor"
-export VISUAL=nvim
+# export VISUAL=nvim
 
 #set completion source string for nvm
 export NVM_DIR="$HOME/.nvm"
